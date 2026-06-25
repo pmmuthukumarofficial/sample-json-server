@@ -1,5 +1,154 @@
 {
-  "products": [
-    { "id": 1, "name": "Item 1" }
-  ]
+  "users": [
+    {
+      "username": "user1",
+      "password": "abc",
+      "email": "abc@gmail.com",
+      "role": "user",
+      "gender": "male",
+      "phone": 99209920,
+      "address": [
+        {
+          "doorNo": "7/2",
+          "apartment": "credo apartment",
+          "street": "abc street, okkiyam pettai",
+          "city": "chennai",
+          "pincode": 600012
+        }
+      ],
+      "id": "ZJ2QNOgbz0g"
+    },
+    {
+      "username": "user2",
+      "password": "345",
+      "email": "abc@gmail.com",
+      "gender": "male",
+      "phone": "9698296975",
+      "role": "user",
+      "address": [],
+      "id": "hOimgY8auak"
+    },
+    {
+      "username": "user3",
+      "password": "909",
+      "email": "abc@gmail.com",
+      "gender": "male",
+      "phone": "8298188",
+      "role": "user",
+      "address": [],
+      "id": "1H6DOHgCrMU"
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "phone": "8298188",
+      "role": "admin",
+      "address": [],
+      "id": "o6AmJ956MXo"
+    }
+  ],
+  "books": [
+    {
+      "bookId": 1001,
+      "bookName": "Ponniyin Selvan",
+      "author": "Kalki",
+      "imgUrl": "https://m.media-amazon.com/images/I/711rk7WnQGL._SY466_.jpg",
+      "category": "fiction",
+      "genre": "history, drama",
+      "price": 250,
+      "stockCount": 20,
+      "id": "OZsHolkL8wA"
+    },
+    {
+      "bookId": 1002,
+      "bookName": "Atomic Habits",
+      "author": "James Clear",
+      "imgUrl": "https://m.media-amazon.com/images/I/817HaeblezL._SY466_.jpg",
+      "category": "non-fiction",
+      "genre": "self-help",
+      "price": 450,
+      "stockCount": 15,
+      "id": "H3RTzX2Xgp0"
+    },
+    {
+      "bookId": 1003,
+      "bookName": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "imgUrl": "https://m.media-amazon.com/images/I/81q77Q39nEL._SY466_.jpg",
+      "category": "fiction",
+      "genre": "fantasy, magic, adventure",
+      "price": 350,
+      "stockCount": 25,
+      "id": "MbzcpY2t2WU"
+    },
+    {
+      "bookId": 1005,
+      "bookName": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "imgUrl": "https://m.media-amazon.com/images/I/71HJj3XmheL._SY466_.jpg",
+      "category": "non-fiction",
+      "genre": "finance, motivation",
+      "price": 400,
+      "stockCount": 12,
+      "id": "MF83l1D15pQ"
+    },
+    {
+      "bookId": 1006,
+      "bookName": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "imgUrl": "https://m.media-amazon.com/images/I/51j1kEl26TL._SY445_SX342_FMwebp_.jpg",
+      "category": "fiction",
+      "genre": "love, classic",
+      "price": 280,
+      "stockCount": 22,
+      "id": "8TgxxvOGHMM"
+    },
+    {
+      "bookId": 1007,
+      "bookName": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "imgUrl": "https://m.media-amazon.com/images/I/713jIoMO3UL._SY466_.jpg",
+      "category": "non-fiction",
+      "genre": "human evolution",
+      "price": 550,
+      "stockCount": 10,
+      "id": "RjKYkCVy2lk"
+    },
+    {
+      "bookId": 1008,
+      "bookName": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "imgUrl": "https://m.media-amazon.com/images/I/41o7uB3kA8L._SY466_.jpg",
+      "category": "non-fiction",
+      "genre": "mindfulness",
+      "price": 320,
+      "stockCount": 14,
+      "id": "F3hz473lnew"
+    },
+    {
+      "bookId": 1009,
+      "bookName": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "imgUrl": "https://m.media-amazon.com/images/I/512WlnAvYlL._SY445_SX342_FMwebp_.jpg",
+      "category": "fiction",
+      "genre": "adventure",
+      "price": 380,
+      "stockCount": 17,
+      "id": "vVYmcTJKzCA"
+    },
+    {
+      "bookId": 1010,
+      "bookName": "Me Before You",
+      "author": "Jojo Moyes",
+      "imgUrl": "https://m.media-amazon.com/images/I/71dzw8F3B+L._SY466_.jpg",
+      "category": "fiction",
+      "genre": "drama, love",
+      "price": 290,
+      "stockCount": 19,
+      "id": "zYL31pi7Ow4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
